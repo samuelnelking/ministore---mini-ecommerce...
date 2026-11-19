@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MiniStore | Product</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="ministore.css">
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="index.html">MiniStore<span>.</span></a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="product.html">Product</a>
+    <a href="cart.html">Cart</a>
+  </nav>
+  <div class="actions"><i class="fa-solid fa-magnifying-glass"></i><i class="fa-regular fa-user"></i><a href="cart.html" aria-label="Cart"><i class="fa-solid fa-bag-shopping"></i></a><i class="fa-solid fa-bars menu"></i></div>
+</header>
+
+<main>
+  <section class="page-banner">
+    <div class="crumbs"><a href="index.html">Home</a><span>/</span><a href="shop.html">Shop</a><span>/</span><span>Product</span></div>
+    <h1>Product details</h1>
+  </section>
+
+  <section class="product-detail">
+    <div class="detail-wrap">
+      <div class="detail-gallery">
+        <div class="detail-main"><img src="https://images.unsplash.com/photo-1544117519-31a4b719223d?auto=format&fit=crop&w=800&q=85" alt="Pink watch"></div>
+        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=85" alt="Watch side view">
+        <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=85" alt="Watch close-up">
+        <img src="https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=crop&w=800&q=85" alt="Black watch"></div>
+      <div class="detail-content">
+        <h1>Pink Watch</h1>
+        <div class="rating">★★★★★ <span>4.9 / 5</span></div>
+        <div class="price">$870</div>
+        <p class="detail-copy">A refined smart watch for everyday elegance, designed with a lightweight body, all-day battery life, and a premium silicon strap made for movement.</p>
+
+        <div class="option-row">
+          <button class="swatch active" style="background:#f8d4d8" aria-label="Rose pink"></button>
+          <button class="swatch" style="background:#2d2b2b" aria-label="Night black"></button>
+          <button class="swatch" style="background:#dfe6eb" aria-label="Silver"></button>
+        </div>
+
+        <div class="detail-actions">
+          <div class="qty-box" aria-label="Quantity selector">
+            <button aria-label="Decrease quantity">-</button>
+            <span>1</span>
+            <button aria-label="Increase quantity">+</button>
+          </div>
+          <a class="button" href="cart.html">Add to cart</a>
+        </div>
+
+        <div class="specs">
+          <strong>Product details</strong>
+          <ul>
+            <li>AMOLED display with always-on mode</li>
+            <li>Water-resistant up to 50m</li>
+            <li>7-day battery life with fast charging</li>
+            <li>Health tracking and GPS enabled</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="related">
+    <div class="heading"><h2>Related products</h2><a href="shop.html">Go to shop →</a></div>
+    <div class="grid">
+      <article class="product-card">
+        <div class="product-image"><img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=85" alt="Heavy watch"></div>
+        <div class="meta"><h3>Heavy Watch</h3><span class="price">$680</span></div>
+      </article>
+      <article class="product-card">
+        <div class="product-image"><img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=700&q=85" alt="Iphone 10"></div>
+        <div class="meta"><h3>Iphone 10</h3><span class="price">$980</span></div>
+      </article>
+      <article class="product-card">
+        <div class="product-image"><img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=700&q=85" alt="Spotted watch"></div>
+        <div class="meta"><h3>Spotted Watch</h3><span class="price">$750</span></div>
+      </article>
+      <article class="product-card">
+        <div class="product-image"><img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=700&q=85" alt="Iphone 13"></div>
+        <div class="meta"><h3>Iphone 13</h3><span class="price">$1,500</span></div>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer><a class="logo" href="index.html">MiniStore<span>.</span></a><p>© 2026 MiniStore. All rights reserved.</p></footer>
+</body>
+</html>

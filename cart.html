@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MiniStore | Cart</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="ministore.css">
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="index.html">MiniStore<span>.</span></a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="product.html">Product</a>
+    <a href="cart.html">Cart</a>
+  </nav>
+  <div class="actions"><i class="fa-solid fa-magnifying-glass"></i><i class="fa-regular fa-user"></i><a href="cart.html" aria-label="Cart"><i class="fa-solid fa-bag-shopping"></i></a><i class="fa-solid fa-bars menu"></i></div>
+</header>
+
+<main>
+  <section class="page-banner">
+    <div class="crumbs"><a href="index.html">Home</a><span>/</span><span>Cart</span></div>
+    <h1>Your cart</h1>
+  </section>
+
+  <section class="cart-wrap">
+    <div class="cart-layout">
+      <div class="cart-items">
+        <div class="cart-item">
+          <img src="https://images.unsplash.com/photo-1544117519-31a4b719223d?auto=format&fit=crop&w=700&q=85" alt="Pink watch">
+          <div class="cart-meta">
+            <h3>Pink Watch</h3>
+            <p>Color: Rose Pink</p>
+          </div>
+          <div>
+            <div class="qty-control">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <p class="price" style="margin-top:12px; font-size:18px; color:#72a2c0;">$870</p>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=700&q=85" alt="Iphone 11">
+          <div class="cart-meta">
+            <h3>Iphone 11</h3>
+            <p>Color: Silver</p>
+          </div>
+          <div>
+            <div class="qty-control">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <p class="price" style="margin-top:12px; font-size:18px; color:#72a2c0;">$1,100</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="cart-summary">
+        <h2>Order summary</h2>
+        <div class="summary-row"><span>Subtotal</span><span>$1,970</span></div>
+        <div class="summary-row"><span>Shipping</span><span>$20</span></div>
+        <div class="summary-row"><span>Discount</span><span>-$70</span></div>
+        <div class="summary-row total"><span>Total</span><span>$1,920</span></div>
+        <a class="button dark" href="index.html">Checkout</a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="related" style="padding-top:0;">
+    <div class="heading"><h2>Continue shopping</h2><a href="shop.html">View more →</a></div>
+    <div class="grid">
+      <article class="product-card">
+        <div class="product-image"><img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=700&q=85" alt="Iphone 12"></div>
+        <div class="meta"><h3>Iphone 12</h3><span class="price">$780</span></div>
+      </article>
+      <article class="product-card">
+        <div class="product-image"><img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=700&q=85" alt="Spotted watch"></div>
+        <div class="meta"><h3>Spotted Watch</h3><span class="price">$750</span></div>
+      </article>
+      <article class="product-card">
+        <div class="product-image"><img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=700&q=85" alt="Iphone 13"></div>
+        <div class="meta"><h3>Iphone 13</h3><span class="price">$1,500</span></div>
+      </article>
+      <article class="product-card">
+        <div class="product-image"><img src="https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=crop&w=700&q=85" alt="Black watch"></div>
+        <div class="meta"><h3>Black Watch</h3><span class="price">$650</span></div>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer><a class="logo" href="index.html">MiniStore<span>.</span></a><p>© 2026 MiniStore. All rights reserved.</p></footer>
+</body>
+</html>
